@@ -7,6 +7,7 @@ This repository shows basic code examples of the tensorflow.
 - Basic Operations (Low Level API) [[ipynb]]()
 - Basic Operations (Eager Execution) [[ipynb]]()
 - Scope [[ipynb]]()
+- Dataset API [[ipynb]]()
 
 ### 2. Fully Connected Neural Network w/ Various Kinds of APIs
 __MNIST Classification__
@@ -20,7 +21,7 @@ __MNIST Classification using Dropout and Batch Normalization__
 - High Level implementation (tf.layers API) [[ipynb]]()
 - High Level implementation (tf.keras/tf.dataset API w/ Eager) [[ipynb]]()
 
-### 4. Sequence Models
+### 4. Sequence Model
 __Simple Text Generation using RNN__
 - Low Level implementation (tf.nn API) [[ipynb]]()
 - High Level implementation (tf.keras/tf.dataset API w/ Eager) [[ipynb]]()
@@ -35,7 +36,6 @@ __Sequence Text Generation using LSTM__
 
 ### 6. Others
 - Tensor Board [[ipynb]]()
-- Dataset API
 - Save and Load Models
 
 ## Requirements
