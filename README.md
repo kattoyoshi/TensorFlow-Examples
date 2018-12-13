@@ -4,8 +4,8 @@ This repository shows basic code examples of the tensorflow.
 ## Table of contents
 ### 1. Tensorflow Basic
 - Overview and Tensors [[ipynb]](notebooks/1_TensorflowBasic/1_Overview_and_Tensors.ipynb)
-- Basic Operations (Low Level API) [[ipynb]]()
-- Basic Operations (Eager Execution) [[ipynb]]()
+- Basic Operations (Low Level API) [[ipynb]](notebooks/1_TensorflowBasic/2_BasicOperation.ipynb)
+- Basic Operations (Eager Execution) [[ipynb]](notebooks/1_TensorflowBasic/3_BasicOperation_Eager.ipynb)
 - Scope [[ipynb]]()
 - Dataset API [[ipynb]]()
 
