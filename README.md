@@ -6,7 +6,7 @@ This repository shows basic code examples of the tensorflow.
 - Overview and Tensors [[ipynb]](notebooks/1_TensorflowBasic/1_Overview_and_Tensors.ipynb)
 - Basic Operations (Low Level API) [[ipynb]](notebooks/1_TensorflowBasic/2_BasicOperation.ipynb)
 - Basic Operations (Eager Execution) [[ipynb]](notebooks/1_TensorflowBasic/3_BasicOperation_Eager.ipynb)
-- Scope [[ipynb]]()
+- Scope [[ipynb]](notebooks/1_TensorflowBasic/4_Scope.ipynb)
 - Dataset API [[ipynb]]()
 
 ### 2. Fully Connected Neural Network w/ Various Kinds of APIs
@@ -37,6 +37,7 @@ __Sequence Text Generation using LSTM__
 ### 6. Others
 - Tensor Board [[ipynb]]()
 - Save and Load Models
+- TFREcord
 
 ## Requirements
 - Tensorflow 1.12.0
