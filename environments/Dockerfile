@@ -1,16 +1,17 @@
 # ----------------------------------------------------#
-# ubuntu    16.04
-# python    3.6
+# ubuntu        18.04
+# python        3.6
+# tensorflow    1.13.1
+# cuda          10.0
+# cudnn         7.5
 # ----------------------------------------------------#
-ARG BASE_IMAGE_TYPE=devel
-FROM nvidia/cuda:9.0-cudnn7-${BASE_IMAGE_TYPE}-ubuntu16.04
+ARG BASE_IMAGE_TYPE=runtime
+
+FROM nvidia/cuda:10.0-cudnn7-${BASE_IMAGE_TYPE}-ubuntu18.04
 
 # ----------------------------------------------------#
-# Linux Packages
+# Install Linux Packages
 # ----------------------------------------------------#
-RUN apt update -y && \
-    apt install -y software-properties-common && \
-    add-apt-repository ppa:deadsnakes/ppa
 RUN apt update -y && apt install -y \
         curl \
         vim \
@@ -31,10 +32,8 @@ RUN rm /usr/bin/python3
 RUN ln -s /usr/bin/python3.6 /usr/bin/python3
 
 # ----------------------------------------------------#
-# Install Python Packages under the USER environment
+# Install Python Packages
 # ----------------------------------------------------#
-ARG TENSORFLOW_VERSION=1.13.1
-
 RUN pip3 --no-cache-dir install \
         Pillow \
         h5py \
@@ -48,7 +47,7 @@ RUN pip3 --no-cache-dir install \
         scikit-image \
         opencv-python \
         tqdm \
-        tensorflow-gpu==${TENSORFLOW_VERSION} \
+        tensorflow-gpu==1.13.1 \
         tensorflow-hub  && \
     python3 -m ipykernel.kernelspec
 
