@@ -46,21 +46,22 @@ __Dog / Cat Classification__
 - Save and Load Models [[ipynb]](notebooks/7_OtherTopics/2_SaveAndLoadModels.ipynb)
 
 ## Requirements
-- tensorflow-gpu == 1.13.1
-- tensorflow-hub == 0.3.0
-- numpy
-- matplotlib
-- jupyter notebook
-- opencv-python
+- CUDA
+  - CUDA 10.0
+  - cuDNN 7.5
+- Python Packages
+  - tensorflow-gpu == 1.13.1
+  - tensorflow-hub
+  - etc.
 
 ### Anaconda
 - Install Anaconda
 - Use [yaml file](environments/requirements.yaml) to create environment
 
 ```bash
-cd {path/to/yamlfile/parent}
+$ cd {path/to/yamlfile/parent}
 
-conda env create -f requirements.yaml
+$ conda env create -f requirements.yaml
 ```
 
 ### Docker
@@ -68,21 +69,21 @@ conda env create -f requirements.yaml
 - Use the [Dockerfile](environments/Dockerfile) to build a docker image
 
 ```bash
-cd {path/to/Dockerfile/parent}
+$ cd {path/to/Dockerfile/parent}
 
 # {image_name}, {tag_name} and {container_name} shoule be define by yourself
-docker build -t {image_name}/{tag_name} .
+$ docker build -t {image_name}/{tag_name} .
 ```
 If you want to use a container as jupyter notebook server, run the container like bellow.
 
 ```bash
-docker run -it -p 8888:8888 --name {conteiner_name} {image_name}/{tag_name}
+$ docker run --runtime=nvidia -it -p 8888:8888 --name {conteiner_name} {image_name}/{tag_name}
 # If you want to use jupyter notebook, run command bellow
-jupyter notebook --ip=0.0.0.0 --allow-root
+$ jupyter notebook --ip=0.0.0.0 --allow-root
 ```
 
 If you want to use a container as tensorboard server, run the container like bellow.
 
 ```bash
-docker run -it -p 6006:6006 --name {conteiner_name} {image_name}/{tag_name}
+$ docker run --runtime=nvidia -it -p 6006:6006 --name {conteiner_name} {image_name}/{tag_name}
 ```
