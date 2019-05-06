@@ -11,25 +11,25 @@ This repository shows basic code examples of the tensorflow.
 - TFRecord [[ipynb]](notebooks/1_TensorflowBasic/6_TFRecord.ipynb)
 
 ### 2. Neural Network
-__MNIST Classification using Dropout__
+__MNIST Classification with Dropout__
 - Low Level API (tf.nn API) [[ipynb]](notebooks/2_NeuralNetwork/1_LowLevelAPI.ipynb)
 - High Level API (tf.layers API) [[ipynb]](notebooks/2_NeuralNetwork/2_HighLevelAPI_1.ipynb)
-- High Level API (tf.keras/tf.dataset API w/ Eager) [[ipynb]](notebooks/2_NeuralNetwork/2_HighLevelAPI_2.ipynb)
+- High Level API (tf.keras API w/ Eager) [[ipynb]](notebooks/2_NeuralNetwork/2_HighLevelAPI_2.ipynb)
 
-### 3. Convolutional Network
-__MNIST Classification using Batch Normalization__
+### 3. Convolutional Neural Network
+__MNIST Classification with Batch Normalization__
 - Low Level API (tf.nn API) [[ipynb]](notebooks/3_ConvolutionalNetwork/1_LowLevelAPI.ipynb)
 - High Level API (tf.layers API) [[ipynb]](notebooks/3_ConvolutionalNetwork/2_HighLevelAPI_1.ipynb)
-- High Level API (tf.keras/tf.dataset API w/ Eager) [[ipynb]](notebooks/3_ConvolutionalNetwork/2_HighLevelAPI_2.ipynb)
+- High Level API (tf.keras API w/ Eager) [[ipynb]](notebooks/3_ConvolutionalNetwork/2_HighLevelAPI_2.ipynb)
 
 ### 4. Sequence Model
 __Simple Text Generation using RNN__
 - Low Level API (tf.nn API) [[ipynb]](notebooks/4_SequenceModel/1-1_LowLevelAPI.ipynb)
-- High Level API (tf.keras/tf.dataset API w/ Eager) [[ipynb]](notebooks/4_SequenceModel/1-2_HighLevelAPI.ipynb)
+- High Level API (tf.keras w/ Eager) [[ipynb]](notebooks/4_SequenceModel/1-2_HighLevelAPI.ipynb)
 
 __Sequence Text Generation using LSTM__
 - Low Level API (tf.nn API) [[ipynb]](notebooks/4_SequenceModel/2-1_LowLevelAPI.ipynb)
-- High Level API (tf.keras/tf.dataset API w/ Eager) [[ipynb]](notebooks/4_SequenceModel/2-2_HighLevelAPI.ipynb)
+- High Level API (tf.keras w/ Eager) [[ipynb]](notebooks/4_SequenceModel/2-2_HighLevelAPI.ipynb)
 
 ### 5. Transfer Learning
 __Dog Breed Clasification__
