@@ -1,13 +1,13 @@
 # ----------------------------------------------------#
 # ubuntu        18.04
 # python        3.6
-# tensorflow    1.13.1
-# cuda          10.0
-# cudnn         7.5
+# tensorflow    1.15.2
+# cuda          10.1
+# cudnn         7.6
 # ----------------------------------------------------#
 ARG BASE_IMAGE_TYPE=runtime
 
-FROM nvidia/cuda:10.0-cudnn7-${BASE_IMAGE_TYPE}-ubuntu18.04
+FROM nvidia/cuda:10.1-cudnn7-${BASE_IMAGE_TYPE}-ubuntu18.04
 
 # ----------------------------------------------------#
 # Install Linux Packages
@@ -18,6 +18,7 @@ RUN apt update -y && apt install -y \
         build-essential \
         pkg-config \
         unzip \
+        wget \
         git \
         zip \
         less \
@@ -34,6 +35,8 @@ RUN ln -s /usr/bin/python3.6 /usr/bin/python3
 # ----------------------------------------------------#
 # Install Python Packages
 # ----------------------------------------------------#
+RUN pip3 install --upgrade pip
+RUN pip3 install -U setuptools
 RUN pip3 --no-cache-dir install \
         Pillow \
         h5py \
@@ -47,7 +50,7 @@ RUN pip3 --no-cache-dir install \
         scikit-image \
         opencv-python \
         tqdm \
-        tensorflow-gpu==1.13.1 \
+        tensorflow-gpu==1.15.2 \
         tensorflow-hub  && \
     python3 -m ipykernel.kernelspec
 
@@ -56,6 +59,6 @@ RUN pip3 --no-cache-dir install \
 # ----------------------------------------------------#
 # TensorBoard
 EXPOSE 6006
-# IPython
+# Jupyter 
 EXPOSE 8888
 
