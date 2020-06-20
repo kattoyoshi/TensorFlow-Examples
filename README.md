@@ -13,14 +13,14 @@ This repository shows basic code examples of the tensorflow v1.
 ### 2. Neural Network
 __MNIST Classification with MLP__  
 - Low Level API (tf.nn API) [[ipynb]](notebooks/2_NeuralNetwork/1_LowLevelAPI.ipynb)
-- High Level API (tf.layers API) [[ipynb]](notebooks/2_NeuralNetwork/2_HighLevelAPI_1.ipynb)
-- High Level API (tf.keras API w/ Eager) [[ipynb]](notebooks/2_NeuralNetwork/2_HighLevelAPI_2.ipynb)
+- High Level API (tf.layers API) [[ipynb]](notebooks/2_NeuralNetwork/2_LayersAPI.ipynb)
+- High Level API (tf.keras API w/ Eager) [[ipynb]](notebooks/2_NeuralNetwork/2_KerasWithEager.ipynb)
 
 ### 3. Convolutional Neural Network
 __MNIST Classification with CNN__  
 - Low Level API (tf.nn API) [[ipynb]](notebooks/3_ConvolutionalNetwork/1_LowLevelAPI.ipynb)
-- High Level API (tf.layers API) [[ipynb]](notebooks/3_ConvolutionalNetwork/2_HighLevelAPI_1.ipynb)
-- High Level API (tf.keras API w/ Eager) [[ipynb]](notebooks/3_ConvolutionalNetwork/2_HighLevelAPI_2.ipynb)
+- High Level API (tf.layers API) [[ipynb]](notebooks/3_ConvolutionalNetwork/2_LayersAPI.ipynb)
+- High Level API (tf.keras API w/ Eager) [[ipynb]](notebooks/3_ConvolutionalNetwork/2_KerasWithEager.ipynb)
 
 ### 4. Sequence Model
 __Simple Text Generation using RNN__  
