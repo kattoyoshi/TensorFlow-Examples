@@ -4,4 +4,4 @@
 *.ipynb_checkpoints/
 *__pycache__/
 data/mnist
-notebooks/*/checkpoints*/
+notebooks*/*/checkpoints*/
