@@ -57,14 +57,15 @@ __Dog / Cat Classification__
 ### 8. Environments
 - Install Docker and Nvidia Docker to your host
 - Case: tf1
-  - Use this [Dockerfile](environments/tf1/Dockerfile) to build a docker image
-
+  - Use `environments/tf1/Dockerfile` to build a docker image
+- Case: tf2
+  - Use `environments/tf1/Dockerfile` to build a docker image
 
 ```bash
 $ cd Docker
 
 # {image_name}, {tag_name} and {container_name} shoule be define by yourself
-$ docker build -t {image_name}/{tag_name} .
+$ docker build -t {image_name}:{tag_name} .
 ```
 If you want to use a container as jupyter notebook server, run the container like bellow.
 
