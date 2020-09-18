@@ -51,10 +51,10 @@ If you want to use a container as jupyter notebook server, run the container lik
 
 ```bash
 # Docker (<19.03) with NVIDIA Docker v2
-$ docker run --runtime=nvidia -it --rm -p 8888:8888 --name {conteiner_name} -v {host_dir}:{docker_dir} {image_name}/{tag_name} /bin/bash
+$ docker run --runtime=nvidia -it --rm -p 8888:8888 --name {conteiner_name} -v {host_dir}:{docker_dir} {image_name}:{tag_name} /bin/bash
 
 # Docker (>=19.03) with nvidia-container-toolkit
-$ docker run --gpus 1 -it --rm -p 8888:8888 --name {conteiner_name} -v {host_dir}:{docker_dir} {image_name}/{tag_name} /bin/bash
+$ docker run --gpus 1 -it --rm -p 8888:8888 --name {conteiner_name} -v {host_dir}:{docker_dir} {image_name}:{tag_name} /bin/bash
 
 # If you want to use jupyter notebook, run command bellow
 $ jupyter notebook --ip=0.0.0.0 --allow-root
@@ -63,5 +63,5 @@ $ jupyter notebook --ip=0.0.0.0 --allow-root
 If you want to use a container as tensorboard server, run the container like bellow.
 
 ```bash
-$ docker run -it --rm -p 6006:6006 --name {conteiner_name} -v {host_dir}:{docker_dir} {image_name}/{tag_name} /bin/bash
+$ docker run -it --rm -p 6006:6006 --name {conteiner_name} -v {host_dir}:{docker_dir} {image_name}:{tag_name} /bin/bash
 ```
