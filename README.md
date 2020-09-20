@@ -34,7 +34,12 @@ __MNIST Classification with CNN__
   - Customized setp-by-step loops [[ipynb]](notebooks_tf2/3_ConvolutionalNetwork/2_CustomizedTrainingLoops.ipynb)
   - Training/eval loops from scratch [[ipynb]](notebooks_tf2/3_ConvolutionalNetwork/3_TrainingLoopsFromScratch.ipynb)
 
-## 4. Environments
+## 4. Transfer Learning
+- tf2
+  - Transfer learning with TensorFlow Hub
+  - Transfer learning with tf.keras.applications
+
+## 5. Environments
 - Install Docker and Nvidia Docker to your host
 - Case: tf1
   - Use `environments/tf1/Dockerfile` to build a docker image
