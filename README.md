@@ -21,6 +21,7 @@ __MNIST Classification with MLP__
 - tf2
   - Built-in training/eval loops [[ipynb]](notebooks_tf2/2_NeuralNetwork/1_BuiltInTrainingLoops.ipynb)
   - Customized step-by-step loops [[ipynb]](notebooks_tf2/2_NeuralNetwork/2_CustomizedTrainingLoops.ipynb)
+  - Train with customized layers [[ipynb]](notebooks_tf2/2_NeuralNetwork/3_TrainWithCustomizedLayers.ipynb)
 
 ## 3. Convolutional Neural Network
 __MNIST Classification with CNN__
@@ -31,6 +32,7 @@ __MNIST Classification with CNN__
 - tf2
   - Built-in training/eval loops [[ipynb]](notebooks_tf2/3_ConvolutionalNetwork/1_BuiltInTrainingLoops.ipynb)
   - Customized step-by-step loops [[ipynb]](notebooks_tf2/3_ConvolutionalNetwork/2_CustomizedTrainingLoops.ipynb)
+  - Train with customized layers [[ipynb]](notebooks_tf2/3_ConvolutionalNetwork/3_TrainWithCustomizedLayers.ipynb)
 
 ## 4. Transfer Learning
 - tf2
