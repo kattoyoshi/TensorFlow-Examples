@@ -20,8 +20,7 @@ __MNIST Classification with MLP__
   - High Level API (tf.keras API w/ Eager) [[ipynb]](notebooks_tf1/2_NeuralNetwork/2_KerasWithEager.ipynb)
 - tf2
   - Built-in training/eval loops [[ipynb]](notebooks_tf2/2_NeuralNetwork/1_BuiltInTrainingLoops.ipynb)
-  - Customized setp-by-step loops [[ipynb]](notebooks_tf2/2_NeuralNetwork/2_CustomizedTrainingLoops.ipynb)
-  - Training/eval loops from scratch [[ipynb]](notebooks_tf2/2_NeuralNetwork/3_TrainingLoopsFromScratch.ipynb)
+  - Customized step-by-step loops [[ipynb]](notebooks_tf2/2_NeuralNetwork/2_CustomizedTrainingLoops.ipynb)
 
 ## 3. Convolutional Neural Network
 __MNIST Classification with CNN__
@@ -31,8 +30,7 @@ __MNIST Classification with CNN__
   - High Level API (tf.keras API w/ Eager) [[ipynb]](notebooks_tf1/3_ConvolutionalNetwork/2_KerasWithEager.ipynb)
 - tf2
   - Built-in training/eval loops [[ipynb]](notebooks_tf2/3_ConvolutionalNetwork/1_BuiltInTrainingLoops.ipynb)
-  - Customized setp-by-step loops [[ipynb]](notebooks_tf2/3_ConvolutionalNetwork/2_CustomizedTrainingLoops.ipynb)
-  - Training/eval loops from scratch [[ipynb]](notebooks_tf2/3_ConvolutionalNetwork/3_TrainingLoopsFromScratch.ipynb)
+  - Customized step-by-step loops [[ipynb]](notebooks_tf2/3_ConvolutionalNetwork/2_CustomizedTrainingLoops.ipynb)
 
 ## 4. Transfer Learning
 - tf2
