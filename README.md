@@ -17,7 +17,7 @@ __MNIST Classification with MLP__
 - tf1
   - Low Level API (tf.nn API) [[ipynb]](notebooks_tf1/2_NeuralNetwork/1_LowLevelAPI.ipynb)
   - High Level API (tf.layers API) [[ipynb]](notebooks_tf1/2_NeuralNetwork/2_LayersAPI.ipynb)
-  - High Level API (tf.keras API w/ Eager) [[ipynb]](notebooks_tf1/2_NeuralNetwork/2_KerasWithEager.ipynb)
+  - High Level API (tf.keras API w/ Eager) [[ipynb]](notebooks_tf1/2_NeuralNetwork/3_KerasWithEager.ipynb)
 - tf2
   - Built-in training/eval loops [[ipynb]](notebooks_tf2/2_NeuralNetwork/1_BuiltInTrainingLoops.ipynb)
   - Customized step-by-step loops [[ipynb]](notebooks_tf2/2_NeuralNetwork/2_CustomizedTrainingLoops.ipynb)
@@ -28,7 +28,7 @@ __MNIST Classification with CNN__
 - tf1
   - Low Level API (tf.nn API) [[ipynb]](notebooks_tf1/3_ConvolutionalNetwork/1_LowLevelAPI.ipynb)
   - High Level API (tf.layers API) [[ipynb]](notebooks_tf1/3_ConvolutionalNetwork/2_LayersAPI.ipynb)
-  - High Level API (tf.keras API w/ Eager) [[ipynb]](notebooks_tf1/3_ConvolutionalNetwork/2_KerasWithEager.ipynb)
+  - High Level API (tf.keras API w/ Eager) [[ipynb]](notebooks_tf1/3_ConvolutionalNetwork/3_KerasWithEager.ipynb)
 - tf2
   - Built-in training/eval loops [[ipynb]](notebooks_tf2/3_ConvolutionalNetwork/1_BuiltInTrainingLoops.ipynb)
   - Customized step-by-step loops [[ipynb]](notebooks_tf2/3_ConvolutionalNetwork/2_CustomizedTrainingLoops.ipynb)
